@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+}
+
+.main-header
+.main-footer {
+    grid-column: col-start / span12;;
+}
+
+.sidebar {
+    grid-column: col-start / span 3;
+    grid-row: 2;
+}
+
+.nav {
+    grid-column: col-start / span 6;
+    grid-row: 1;
+}
+
+.article {
+    grid-column: col-start / span 6;
+    grid-row: 2;
+}
+
